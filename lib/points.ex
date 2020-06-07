@@ -12,7 +12,7 @@ defmodule Tetris.Points do
     points
     |> Enum.map(fn {x, y} -> {5 - x, y} end)
   end
-
+#hi
   def mirror(points, false), do: points
   def mirror(points, true), do: mirror points
 
