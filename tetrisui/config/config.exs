@@ -10,14 +10,10 @@ use Mix.Config
 # Configures the endpoint
 config :tetrisui, TetrisuiWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "LvqByacL4o0Yh1ZLmNwbzpDG1zwr+RHQW/+Un0F7eQEpQiZIKmeJdSA0+JB60DFs",
+  secret_key_base: "rN8DdaTOgZ/GG8VOz2ASQRaJUiCVhe7lizWitzt1wowN/2H8A/oh2lNeXTGH5NM7",
   render_errors: [view: TetrisuiWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Tetrisui.PubSub,
-  live_view: [signing_salt: "nuHAc3oj"],
-  live_view: [
-     signing_salt: "bKnOf4uq1ybvkfR3UQV7w/qjlR4hED19"
-   ]
-
+  live_view: [signing_salt: "ehG+5SQq"]
 
 # Configures Elixir's Logger
 config :logger, :console,

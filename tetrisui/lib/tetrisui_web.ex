@@ -48,7 +48,6 @@ defmodule TetrisuiWeb do
 
       import Plug.Conn
       import Phoenix.Controller
-      
     end
   end
 
